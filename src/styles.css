@@ -1,1 +1,191 @@
-/* You can add global styles to this file, and also import other style files */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
+body{
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  margin: 0;
+}
+
+
+/**  Header Navigation **/
+
+header .navbar {
+  padding: 30px 0;
+  transition: all .5s ease-out;
+}
+
+header .navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+header .navbar-default .navbar-nav a {
+  color: white;
+  padding: 5px 8px;
+}
+
+header .navbar-default .navbar-nav a:hover {
+  color: #EEC856;
+}
+
+header .navbar-default .navbar-nav .active a {
+  font-weight: 700;
+  color: #EEC856;
+  background: transparent;
+  border-bottom: 4px solid #EEC856;
+  text-shadow: none;
+}
+
+header .navbar-default .navbar-nav .active a:hover {
+  color: #E15D5F;
+  background: transparent;
+  text-shadow: none;
+}
+
+header .navbar-brand h1 {
+  color: white;
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: 400;
+  padding-left: 105px;
+}
+
+header .navbar-brand span.subhead {
+  display: block;
+  font-family: "Roboto Slab", serif;
+  font-size: .6em;
+  font-weight: 100;
+}
+/**  nav inbody **/
+
+header .inbody {
+  background: rgba(102,153,204,.9);
+}
+
+header .navbar.inbody {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+header .navbar.inbody .navbar-nav {
+  padding-top: 10px;
+}
+
+header .inbody .navbar-brand {
+  background-size: 43px;
+  background-position: top left;
+  margin-top: 5px;
+  padding-bottom: 0;
+  margin-left: 10px;
+}
+
+header .inbody .navbar-brand h1 {
+  font-size: 1.1em;
+  padding-left: 38px;
+}
+
+header .inbody .navbar-brand span.subhead {
+  display: none;
+}
+.page {
+  /*padding: 50px 0;*/
+  /*padding-top: 1em;*/
+}
+.todayDetail{
+	margin-top: 2em;
+}
+/*Heading*/
+.heading{
+  text-align: center;
+  margin-bottom: 1em;
+  text-transform: capitalize;
+  font-size: 2em;
+  font-weight: bold;
+}
+.pageHeading{
+  text-align: center;
+  /*margin-bottom: 1em;*/
+  text-transform: capitalize;
+  font-size: 2em;
+  font-weight: bold;
+}
+/*Pallet*/
+.customeComponent{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*pallet end*/
+/*end Heading*/
+/* Meeting Styling*/
+.meetingName{
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+
+}
+.setMargin{
+  /*margin-top: 5px;*/
+  margin-bottom: 1em;
+}
+/*taskLayout style*/
+.taskLayout{
+  margin-left: 1em;
+}
+.red{
+  background-color: #F44336;
+  color: white;
+}
+.blue{
+  background-color: #03A9F4;
+  color: white;
+}
+.green{
+  background-color: #8BC34A;
+  color: white;
+}
+#home{
+  /*padding-top: 5.5em;*/
+  background-color: #3F51B5;
+  /*color: #FFFFFF;*/
+}
+.meetingLayout ,.taskLayout{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.meetingList{
+  background-color: #BDBDBD;
+}
+#addMeeting {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1.2em;
+  background-color: #F5F5F5;
+}
+#addMeetingPage{
+  background-color: #2196F3;
+}
+#addTaskPage{
+  background-color: #009688;
+}
+#addTask{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1.2em;
+  background-color: #F5F5F5;
+}
+#meetingDetailListPage{
+    background-color: #3F51B5;
+}
+#taskDeatilPage{
+    background-color: #607d8b;
+}
+/*taskLayout end*/
+/*Meeting Styling End*/
+
+/*add Meeting Page*/
+
+/*add Meeting Page end*/
